@@ -1,0 +1,20 @@
+<!-- Базовая структура -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Погодное приложение</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Узнайте погоду</h1>
+    
+    <form id="weather-form">
+        <input type="text" id="city" placeholder="Введите город">
+        <button type="submit">Узнать погоду</button>
+    </form>
+    
+    <div id="weather-result"></div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
