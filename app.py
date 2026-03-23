@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
-API_TOKEN = '3c1d78de89bef8c049f324d0a88f3899'
+API_TOKEN = 'YOUR_TOKEN'
 
 @app.route('/')
 def index():
